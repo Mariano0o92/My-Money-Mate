@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <h2>Expense Tracker</h2>
+    <h2>My Money Mate</h2>
   )
 }
 
