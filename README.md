@@ -1,5 +1,5 @@
 
-# [My Money Mate](https://my-money-mate.netlify.app/)
+# My Money Mate
 
 ## General information
 
@@ -18,3 +18,17 @@ Application implemented using following tech-stack:
  + <img align="center" alt="JavaScript logo" width="20px" height="20px" src="https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png" /> Express.js
  + <img align="center" alt="JavaScript logo" width="20px" height="20px" src="https://i.pinimg.com/564x/82/40/ac/8240ac872c818d2a39ef20d819fdbf0d.jpg" /> React.js
  + <img align="center" alt="JavaScript logo" width="20px" height="20px" src="https://i.pinimg.com/564x/02/03/cb/0203cb9979d9879388a2e771041bfc06.jpg" /> Node.js
+
+## Usage
+
+### Install dependencies
+npm install\
+yarn install
+
+### Run in development
+npm run dev\
+yarn run dev
+
+### Run in production
+npm start\
+yarn start
