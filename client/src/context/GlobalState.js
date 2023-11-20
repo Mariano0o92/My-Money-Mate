@@ -56,16 +56,17 @@ async function deleteTransaction(id) {
 }
 
 async function addTransaction(transaction) {
-
-const config = {
-    headers: {
-        'Content-Type': 'application/json'
+    const config = {
+        headers: {
+            'Content-Type': 'application/json'
+        }
     }
-}
-
-try {
-    const res = await axios.post('https://my-money-mate.onrender.com/api/v1/transactions', transaction, config)
     
+    const modifiedTransaction = { text: transaction.text, amount: transaction.amount }
+    
+    try {
+        const res = await axios.post('https://my-money-mate.onrender.com/api/v1/transactions', modifiedTransaction, config)
+        
     dispatch({
         type: 'ADD_TRANSACTION',
         payload: res.data.data
