@@ -23,7 +23,7 @@ const [state, dispatch] = useReducer(AppReducer, initialState)
 
 async function getTransactions() {
     try {
-        const res = await axios.get('/api/v1/transactions')
+        const res = await axios.get('https://my-money-mate.onrender.com/api/v1/transactions')
 
         dispatch({
             type: 'GET_TRANSACTIONS',
@@ -40,7 +40,7 @@ async function getTransactions() {
 
 async function deleteTransaction(id) {
     try {
-        await axios.delete(`/api/v1/transactions/${id}`)
+        await axios.delete(`https://my-money-mate.onrender.com/api/v1/transactions/${id}`)
 
         dispatch({
             type: 'DELETE_TRANSACTION',
@@ -64,7 +64,7 @@ const config = {
 }
 
 try {
-    const res = await axios.post('/api/v1/transactions', transaction, config)
+    const res = await axios.post('https://my-money-mate.onrender.com/api/v1/transactions', transaction, config)
     
     dispatch({
         type: 'ADD_TRANSACTION',
