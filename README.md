@@ -1,9 +1,9 @@
 
-# My Money Mate
+# [My Money Mate](https://my-money-mate.netlify.app)
 
 ## General information
 
-Application tracking your incomes and expenses. A project created to practice utilizing of React JS including React Hooks and Context API. I've also added a backend API with Express and MongoDB, so that made it fullstack MERN application.
+Application tracking your incomes and expenses. A demonstration project created to practice utilizing of React JS including React Hooks and Context API. I've also added a backend API using Express and MongoDB, so that made it fullstack MERN application.
 <p align=center>
  <img align="center" alt="HTML5 logo" width="200px" src="https://i.pinimg.com/564x/c4/14/db/c414dbebbd15f8ce3dc6b01749810ec6.jpg" />
 <p>
